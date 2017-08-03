@@ -8,9 +8,11 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 
 @Entity
+@Table(name = "SOCIO_TORCEDOR")
 public class SocioTorcedor implements Serializable{
 
 	private static final long serialVersionUID = 1976619413370688342L;
